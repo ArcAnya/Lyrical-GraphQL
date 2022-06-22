@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AppolloClient from 'apollo-client';
-import { ApolloProvider } from 'react-apollo';
+import AppolloClient from '@apollo/client';
+import { ApolloProvider } from '@apollo/client';
 
 import SongList from './components/SongList';
 
